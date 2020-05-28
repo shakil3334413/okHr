@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.job-top {
+  background: url("../img/job-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 78vh;
+}
+.job-top .job-top-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.job-top .job-top-overlay h3{
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-size: 2.5rem;
+}
+.job-top .job-top-overlay p{
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-size: 1.25rem;
+}
+
+.desc{
+    padding: 30px 0;
+}
+.desc .desc-title{
+    font-size: 12desc-titlex;
+    color: #0facf3;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+    width: 100%;
+    font-size: 12px;
+}
+.desc .desc-title a{
+color: #000000;
+text-decoration: none;
+font-size: 12px;
+}
+.desc .desc-left{}
+.desc .desc-left h2{
+    margin-bottom: .5rem;
+    font-weight: 600;
+    color: #37404d;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+.desc .desc-left small{
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    color: #b5b9bf;
+    font-size: 80%;
+    font-weight: 400;
+}
+.desc .desc-left p{
+    margin-bottom: 1rem;
+    color: #535353;
+    font-weight: 300;
+    font-size: 0.9375rem;
+    line-height: 1.9;
+}
+.desc .desc-left h6{
+    font-family: "Open Sans",sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    color: #37404d;
+    line-height: 1.6;
+}
+.desc .desc-left .multiple-items span{
+    margin: 2px;
+    color: #788394;
+    background-color: #e4e7ea;
+    border-radius: 3px;
+    font-weight: 400;
+    line-height: 1.3;
+    font-size: 85%;
+    display: inline-block;
+    padding: .25em .4em;
+    text-align: center;
+    vertical-align: baseline;
+}
+.desc .desc-left h4{
+    margin-top: 20px;
+    font-weight: 600;
+    color: #1579d0;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+.desc .desc-left span{
+    color: #535353;
+    font-weight: 300;
+    font-size: 0.9375rem;
+    line-height: 1.9;
+}
+.desc .desc-left .apply, .desc .desc-right .apply{
+    background: #1579d0;
+    border-color: #1579d0;
+    color: #fff;
+    font-size: 12px;
+    padding: 9px 34px;
+    font-weight: 600;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.desc .desc-right .social{
+    width: 90%;
+    margin: auto;
+}
+.desc .desc-right{
+    text-align: center;
+}
+.desc .desc-right a{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.desc .desc-right .social{
+    border: 1px solid #ebebeb;
+    padding: 5px 0;
+    text-align: center;
+}
+.desc .desc-right .social a{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+   display: inline-block; 
+}
+.desc .desc-right .social i{
+    margin-top: 8px;
+}
+.desc .desc-right .social .fb{
+    background-color: #3b5998;
+    color: #ffffff;
+}
+.desc .desc-right .social .linkedin{
+    background-color: #007bb6;
+    color: #ffffff;
+}
+.desc .desc-right .social .twitter{
+    background-color: #00aced;
+    color: #ffffff;
+}
+.desc .desc-right .social .google{
+    background-color: #dd4b39;
+    color: #ffffff;
+}
+
+
+@media(max-width: 767px){
+    .desc .desc-right {
+        display: none;
+    }
+    .job-top .job-top-overlay h3 {
+        font-size: 25px;
+    }
+}

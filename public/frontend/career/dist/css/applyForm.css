@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+p,
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+.container {
+  max-width: 1230px;
+  margin: auto;
+}
+
+/* apply form  */
+.apply {
+  padding: 50px 0;
+}
+.apply h3 {
+  font-weight: 600;
+  color: #37404d;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+.apply .info,
+.apply .resume,
+.apply .cover {
+  border-top: 1px solid #ebebeb;
+  padding: 35px 0;
+}
+.apply input[type=text], .apply input[type=email] {
+  line-height: 32px;
+  font-size: 14px;
+  padding: 7px 20px;
+  border-color: #e8e8e8;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  width: 100%;
+  margin-bottom: 15px;
+  /* transition: all .3s ease-in-out;  */
+}
+.apply input[type=text]:focus, .apply input[type=email]:focus, .apply textarea:focus {
+    border-color: #70cef8;
+    color: #535353;
+    outline: none;
+  }
+.apply input::placeholder {
+  color: #b5b9bf;
+}
+.apply h6{
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: .5px;
+    margin-bottom: 4px;
+    display: block;
+    color: #535353;
+    line-height: 1.9;
+}
+.apply label{
+    margin-right: .25rem;
+    margin-left: 0;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: .5px;
+}
+.apply input[type=file]{
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #c9d7df;
+    cursor: pointer;
+}
+.apply h5{
+    color: #535353;
+    font-weight: 300;
+    font-size: 0.9375rem;
+    line-height: 1.9;
+}
+.apply textarea{
+    height: auto;
+    line-height: 32px;
+    font-size: 14px;
+    padding: 7px 20px;
+    /* border-color: #e8e8e8; */
+    border-radius: 2px;
+    color: #b5b9bf;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+    width: 100%;
+    font-weight: 300;
+}
+.apply button{
+    background: #2ecc71;
+    color: #fff;
+    font-size: 12px;
+    padding: 9px 34px;
+    font-weight: 600;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    /* transition: all .2s ease; */
+}
+.apply button:hover{
+    box-shadow: 0 2px 10px rgba(15,172,243,0.4);
+}
+/* apply form  */

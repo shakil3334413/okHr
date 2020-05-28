@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap");
+
+/* Color Variable  */
+
+:root {
+  --green-one: #4ac93d;
+  --green-two: #3fe441;
+  --green-three: #0ec64e;
+  --green-four: #26d965;
+  --white: #ffffff;
+  --light-white: #f5f4ff;
+  --black: #444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: var(--green-four);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+p,
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+/*Common CSS ended*/
+
+.login {
+  padding: 200px 0 100px;
+  background-image: url("../login-img/login.png");
+  background-color: #fff;
+  max-width: 730px;
+  margin: auto;
+  text-align: center;
+}
+.login h4 {
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.login p {
+  color: #838383;
+  font-size: 16px;
+}
+.login form {
+  margin: 50px 0;
+}
+.login form .email-input,
+.login form .password-input,
+.login form .button {
+  max-width: 450px;
+  margin: auto;
+  position: relative;
+}
+.login form .email-input i,
+.login form .password-input i {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: var(--green-four);
+  font-size: 20px;
+}
+
+.login form input[type="email"],
+input[type="password"] {
+  height: 60px;
+  width: 100%;
+  border-radius: 50px;
+  padding-left: 50px;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #b0b7d1;
+  outline: none;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+}
+.login form .button button {
+  width: 100%;
+  height: 60px;
+  border-radius: 50px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #0ec64e, #28da66);
+  border: none;
+  color: #fff;
+}
+.login .forgot {
+  color: #007bff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.login .policy {
+  color: #838383;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.login .admin-login {
+  margin: 0 5px;
+  color: #28da66;
+  line-height: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
